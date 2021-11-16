@@ -1,12 +1,12 @@
 # Trybe-exercicios
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Lindoelson Lopes](https://github.com/lindoelsonLopes)_ enquanto estudava em [Trybe] (https://www.betrybe.com/): rocket:🚀
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Lindoelson Lopes](https://github.com/lindoelsonLopes)_ enquanto estudava em _[Trybe](https://www.betrybe.com/)_: rocket: 🚀
 
 _ “Trybe é a escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego.” _
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos de Desenvolvimento Web: white_check_mark:
+## Fundamentos de Desenvolvimento Web: ⏳
 
 ##### Bloco 1: Introdução - Unix e Shell
 
