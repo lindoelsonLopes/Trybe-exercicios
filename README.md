@@ -1,6 +1,6 @@
 # Trybe-exercicios
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _ [https://github.com/lindoelsonLopes] (LinkDoYourLinkedinHere) _ enquanto estudava em [Trybe] (https://www.betrybe.com/): rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Lindoelson Lopes] (https://github.com/lindoelsonLopes) enquanto estudava em [Trybe] (https://www.betrybe.com/): rocket:
 
 _ “Trybe é a escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego.” _
 
