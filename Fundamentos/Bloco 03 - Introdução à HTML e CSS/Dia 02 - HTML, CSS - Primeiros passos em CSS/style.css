@@ -1,13 +1,40 @@
+body {
+    font-size: 16px;
+}
+
 h1 {
+    font-family: sans-serif;
     font-size: 65px;
     color: orange;
 }
 
+p {
+    font-weight: 600;
+    font-size: 48px;
+}
+
 ul{
     background-color: black;
+    font-style: italic;
+    text-align: center;
 
 }
 
 .background-color {
     background:yellow;
 }
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+#brown {
+    background: rgb(12, 1, 1);
+    color: white;
+}
+
