@@ -1,0 +1,14 @@
+h1, p {
+    text-align: center;
+}
+
+ul a {
+    text-decoration: none;
+    
+}
+
+ul a:hover {
+    background-color: #2e8b57;
+    color: white;
+    
+}
