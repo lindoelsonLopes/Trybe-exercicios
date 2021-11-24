@@ -7,8 +7,12 @@ ul a {
     
 }
 
-ul a:hover {
+ul :hover {
     background-color: #2e8b57;
     color: white;
     
+}
+
+ul :active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
