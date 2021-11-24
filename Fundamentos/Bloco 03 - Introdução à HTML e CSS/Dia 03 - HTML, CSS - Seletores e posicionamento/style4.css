@@ -1,0 +1,38 @@
+div:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.cor-primaria {
+    background-color: red;
+}
+
+.cor-secundaria {
+    background-color: green;
+}
+
+.cor-complementar {
+    background-color: rgb(101, 240, 101);
+}
+
+.cor-escura {
+    background-color: rgb(0, 61, 97);
+    
+}
+
+.cor-clara {
+    background-color: silver;
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.tamanho {
+    height: 50px;
+}
+
+.italico {
+    font-style: italic;
+}
+
