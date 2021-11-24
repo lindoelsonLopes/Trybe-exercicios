@@ -1,0 +1,18 @@
+h1, p {
+    text-align: center;
+}
+
+ul a {
+    text-decoration: none;
+    
+}
+
+ul :hover {
+    background-color: #2e8b57;
+    color: white;
+    
+}
+
+ul :active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
