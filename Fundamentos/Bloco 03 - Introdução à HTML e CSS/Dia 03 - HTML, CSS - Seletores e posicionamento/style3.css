@@ -1,16 +1,24 @@
+
 body {
     font-family:monospace;
 }
 
+
 h1, p {
     text-align: center;
 }
+
 
 ul {
     text-decoration: none;
     
     
     
+
+ul a {
+    text-decoration: none;
+    
+
 }
 
 ul :hover {
@@ -21,6 +29,7 @@ ul :hover {
 
 ul :active {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .blog-container {
@@ -30,4 +39,5 @@ ul :active {
 
 .blog-space {
     margin: auto;
+
 }
