@@ -6,3 +6,6 @@ document.body.appendChild(elmentH1);
 
 //Exercício 2
 
+const tagMain = document.createElement('main');
+tagMain.className = 'main-content';
+document.body.appendChild(tagMain);
