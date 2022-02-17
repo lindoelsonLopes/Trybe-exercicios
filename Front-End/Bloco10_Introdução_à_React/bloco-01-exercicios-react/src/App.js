@@ -11,7 +11,9 @@ const tarefas = ['Acordar', 'Tomar café', 'Escovar os dentes', 'Ir estudar'];
 
 class App extends Component {
   render() {
-    return Task('Acordar')
+    return (
+      <ul>{ tarefas.map(tarefa => Task(tarefa))}</ul>
+    );
   }
 }
 
