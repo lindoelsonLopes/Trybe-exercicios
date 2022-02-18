@@ -5,22 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(rgb(126, 194, 221), blue)
 }
+
 
 .pokemon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  flex: 1 1 0;
+  flex: 1 1 1;
   min-width: 25%;
+  height: 200px;
   margin: 10px 10px;
   border: 1px solid gray;
+  box-shadow: inset 5px 5px 5px  rgba(0, 0, 0, 0.5),
+  inset -5px -5px 15px ;
   border-radius: 10px;
+  background: rgba(255, 255, 255, 0.158);
+}
+
+.pokemon:hover {
+  transform: translateY(-10px);
 }
 
 .pokedex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 10px 10px;
 }
