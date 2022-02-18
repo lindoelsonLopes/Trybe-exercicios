@@ -6,7 +6,7 @@ class Order extends React.Component {
 
     return (
       <div className="order">
-        <p> {user} comprou {product} por {price.value} {price.currency} </p>
+        <p> {user} comprou {product} por {price.value} {price.currency} 🍿</p>
       </div>
     );
   }
