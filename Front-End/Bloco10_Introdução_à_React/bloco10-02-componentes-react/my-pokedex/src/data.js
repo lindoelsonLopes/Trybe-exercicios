@@ -40,7 +40,7 @@ const pokemons = [
             value: 6.9,
             measurementUnit: "kg"
         },
-        image: "https://cdn2.bulbagarden.net/upload/1/18/Spr_5b_023.png",
+        image: "https://archives.bulbagarden.net/media/upload/1/18/Spr_5b_023.png",
         moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)"
     },
     {
@@ -51,7 +51,7 @@ const pokemons = [
             value: 48.0,
             measurementUnit: "kg"
         },
-        image: "https://cdn2.bulbagarden.net/upload/8/88/Spr_5b_065_m.png",
+        image: "https://archives.bulbagarden.net/media/upload/8/88/Spr_5b_065_m.png",
         moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)"
     },
     {
