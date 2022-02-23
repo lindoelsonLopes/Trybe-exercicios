@@ -60,6 +60,17 @@ const catalog = [
         seasons: "3 temporadas", 
         episodes: 24
       }
+    },
+    {
+      id: 6,
+      name: "The Walking Dead",
+      image: "https://static1.purebreak.com.br/series/6/43/64/96/@/54778--the-walking-dead-esta-na-5-opengraph_1200-1.jpg",
+      characters: ["Norman Reedus", "Andrew Lincoln", "Melissa McBride", "Lauren Cohan"],
+      genre: "Terror",
+      info: {
+        seasons: "11 temporadas", 
+        episodes: 161
+      }
     }
   ];
   
