@@ -1,5 +1,8 @@
 import React from "react";
 import '../Form.css';
+import EstadoFavorito from "./EstadoFavorito";
+import Inputs from "./Inputs";
+import Select from "./Select";
 
 class Form extends React.Component {
   constructor() {
@@ -41,54 +44,31 @@ class Form extends React.Component {
     render() {
         return (
         <form className="form-content">
-            <label htmlFor="favorito">
-            Diga qual é o seu Estado favorito! Do Brasil ou do React ?
-            <textarea
-              id="favorito" 
-              name="estadoFavorito"
-              value={this.state.estadoFavorito}
-              onChange={this.handleChange}
+          <EstadoFavorito
+          value={this.state.estadoFavorito}
+          handleChange={this.handleChange}
+          />    
+          <Inputs
+          label="Nome"
+          name="name"
+          type="text"
+          value={this.state.name}
+          handleChange={this.handleChange}
+          /> 
+           <Inputs
+          label="E-mail"
+          name="email"
+          type="email"
+          value={this.state.email}
+          handleChange={this.handleChange}
+          />               
+            <Select
+            name="estadoFavorito"
+            label="Estado"
+            value={this.state.estadoFavorito}
+            handleChange={this.handleChange}
+            options={['São Paulo', 'Rio de Janeiro', 'Pernambuco', 'Minas Gerais']}
             />
-            </label>
-
-            <div> 
-            <label>
-                E-mail
-                <input
-                type="email"
-                name="email"
-                value={this.state.email}
-                onChange={this.handleChange}
-            />
-            </label>
-            </div>
-
-            <div>
-            <label>
-                Nome
-                <input
-                type="text"
-                name="name"
-                value={this.state.name}
-                onChange={this.handleChange}
-                />
-            </label>
-            </div>
-
-            <div>
-            <label>
-                Estado
-                <select
-                name="select"
-                value={this.state.name}
-                onChange={this.handleChange}
-              >
-                <option value="Escolher" selected>Escolher</option>
-                <option value="São Paulo" >São Paulo</option>
-                <option value="Rio de Janeiro" >Rio de Janeiro</option>
-                </select> 
-            </label>
-            </div>
 
             <div>
             <label>
