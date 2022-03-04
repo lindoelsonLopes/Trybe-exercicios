@@ -45,30 +45,30 @@ class Form extends React.Component {
         return (
         <form className="form-content">
           <EstadoFavorito
-          value={this.state.estadoFavorito}
-          handleChange={this.handleChange}
+            value={this.state.estadoFavorito}
+            handleChange={this.handleChange}
           />    
           <Inputs
-          label="Nome"
-          name="name"
-          type="text"
-          value={this.state.name}
-          handleChange={this.handleChange}
+            label="Nome"
+            name="name"
+            type="text"
+            value={this.state.name}
+            handleChange={this.handleChange}
           /> 
-           <Inputs
-          label="E-mail"
-          name="email"
-          type="email"
-          value={this.state.email}
-          handleChange={this.handleChange}
+          <Inputs
+            label="E-mail"
+            name="email"
+            type="email"
+            value={this.state.email}
+            handleChange={this.handleChange}
           />               
-            <Select
+          <Select
             name="estadoFavorito"
             label="Estado"
             value={this.state.estadoFavorito}
             handleChange={this.handleChange}
             options={['São Paulo', 'Rio de Janeiro', 'Pernambuco', 'Minas Gerais']}
-            />
+          />
 
             <div>
             <label>
